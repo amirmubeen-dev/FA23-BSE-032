@@ -32,7 +32,7 @@ cd Backend
 npm install
 ```
 
-3. Create a `.env` file in the `Backend` directory with the following content:
+3. Create a `.env.example` file in the `Backend` directory with the following content:
 ```
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/mern_student_crud
@@ -40,11 +40,7 @@ MONGO_URI=mongodb://localhost:27017/mern_student_crud
    - For MongoDB Atlas, replace `MONGO_URI` with your Atlas connection string
    - Example: `MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/mern_student_crud`
 
-4. Start the backend server:
-```bash
-npm start
-```
-   Or for development with auto-reload:
+4. Start the backend server for development with auto-reload:
 ```bash
 npm run dev
 ```
